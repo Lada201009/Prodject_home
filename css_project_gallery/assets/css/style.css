@@ -1,7 +1,14 @@
-.img{
+.image {
+  display: inline-block;
+  width: 320px;
+  height: 320px;
   border: 5px solid black;
   padding: 15px;
   margin: 10px;
+}
+
+.img{
+  max-width: 100%;
+  min-height: 100%;
   object-fit: cover;
-  
 }
